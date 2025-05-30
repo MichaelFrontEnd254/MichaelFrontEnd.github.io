@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4bb.svg" alt="Logo">
+            DevPortfolio
+        </a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="hire-btn" onclick="window.location.href='#contact'">Hire Me</button>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Michael</span></h1>
+                <h2>Front-End Developer</h2>
+                <p>
+                    I craft beautiful and responsive websites with modern technologies.<br>
+                    Let's build something amazing together!
+                </p>
+                <a href="#projects" class="cta-btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" alt="Developer Portrait">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" style="background: #fff; padding: 60px 0;">
+        <div style="max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; padding: 0 2rem;">
+            <div style="flex: 1 1 300px;">
+                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=400&q=80" alt="About Me" style="width: 100%; max-width: 320px; border-radius: 20px; box-shadow: 0 4px 24px rgba(34,34,59,0.10);">
+            </div>
+            <div style="flex: 2 1 400px;">
+                <h2 style="color: #22223b; font-size: 2rem; margin-bottom: 1rem;">About Me</h2>
+                <p id="about-short" style="color: #4a4e69; font-size: 1.1rem; line-height: 1.7; margin-bottom: 1.5rem;">
+                    I'm Michael, a passionate Front-End Developer with a knack for building engaging, user-friendly websites and web apps. I love turning ideas into interactive digital experiences using HTML, CSS, JavaScript, and modern frameworks.
+                </p>
+                <p id="about-more" style="color: #4a4e69; font-size: 1.1rem; line-height: 1.7; margin-bottom: 1.5rem; display: none;">
+                    With several years of experience, I specialize in responsive design, accessibility, and performance optimization. I enjoy collaborating with teams, learning new technologies, and solving real-world problems through code. When I'm not coding, you’ll find me exploring new tech trends, reading, or hiking outdoors.
+                </p>
+                <button id="seeMoreBtn" style="background: #22223b; color: #f2e9e4; border: none; padding: 0.7rem 2rem; border-radius: 24px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background 0.2s;">
+                    See More
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Skills Section Start -->
+    <section id="skills" style="background: linear-gradient(120deg, #f2e9e4 0%, #c9ada7 100%); padding: 60px 0;">
+        <div style="max-width: 1000px; margin: 0 auto; padding: 0 2rem;">
+            <h2 style="text-align: center; color: #22223b; font-size: 2.2rem; margin-bottom: 2.5rem; letter-spacing: 1px;">
+                My <span style="color: #9a8c98;">Skills</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <span>React</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass">
+                    <span>Sass</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Projects Section Start -->
+    <section id="projects" style="background: #fff; padding: 60px 0;">
+        <div style="max-width: 1100px; margin: 0 auto; padding: 0 2rem;">
+            <h2 style="text-align: center; color: #22223b; font-size: 2.2rem; margin-bottom: 2.5rem; letter-spacing: 1px;">
+                Featured <span style="color: #9a8c98;">Projects</span>
+            </h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website to showcase my work, skills, and contact info. Built with HTML, CSS, and JavaScript.</p>
+                        <a href="#" target="_blank" class="project-btn">View Live</a>
+                        <a href="#" target="_blank" class="project-btn secondary">Source Code</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Project 2">
+                    <div class="project-info">
+                        <h3>React Task Manager</h3>
+                        <p>A feature-rich task manager app built with React, supporting CRUD operations, filtering, and local storage.</p>
+                        <a href="#" target="_blank" class="project-btn">View Live</a>
+                        <a href="#" target="_blank" class="project-btn secondary">Source Code</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Landing Page UI</h3>
+                        <p>An elegant landing page template with smooth animations and responsive design, perfect for startups and products.</p>
+                        <a href="#" target="_blank" class="project-btn">View Live</a>
+                        <a href="#" target="_blank" class="project-btn secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" style="background: linear-gradient(120deg, #c9ada7 0%, #f2e9e4 100%); padding: 60px 0;">
+        <div style="max-width: 700px; margin: 0 auto; padding: 0 2rem;">
+            <h2 style="text-align: center; color: #22223b; font-size: 2.2rem; margin-bottom: 2rem; letter-spacing: 1px;">
+                <span style="color: #9a8c98;">Contact</span> Me
+            </h2>
+            <form id="contactForm" style="background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(34,34,59,0.08); padding: 2.5rem 2rem; display: flex; flex-direction: column; gap: 1.3rem;">
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <input type="text" name="name" placeholder="Your Name" required style="flex:1; padding: 0.9rem 1rem; border-radius: 8px; border: 1px solid #ddd; font-size: 1rem;">
+                    <input type="email" name="email" placeholder="Your Email" required style="flex:1; padding: 0.9rem 1rem; border-radius: 8px; border: 1px solid #ddd; font-size: 1rem;">
+                </div>
+                <textarea name="message" placeholder="Your Message" required rows="5" style="padding: 1rem; border-radius: 8px; border: 1px solid #ddd; font-size: 1rem; resize: vertical;"></textarea>
+                <button type="submit" style="background: #22223b; color: #f2e9e4; border: none; padding: 0.9rem 2.5rem; border-radius: 24px; font-size: 1.1rem; font-weight: 600; cursor: pointer; align-self: flex-end; transition: background 0.2s;">
+                    Send Message
+                </button>
+                <div id="formMessage" style="text-align:center; font-size:1rem; margin-top:0.5rem; color:#4a4e69;"></div>
+            </form>
+            <div style="text-align:center; margin-top:2.5rem; color:#22223b;">
+                <strong>Email:</strong> <a href="mailto:michael@email.com" style="color:#9a8c98; text-decoration:none;">michael@email.com</a>
+                <br>
+                <strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank" style="color:#9a8c98; text-decoration:none;">linkedin.com/in/michael</a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#22223b" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,117.3C384,117,480,75,576,74.7C672,75,768,117,864,122.7C960,128,1056,96,1152,85.3C1248,75,1344,85,1392,90.7L1440,96L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+            </svg>
+        </div>
+        <div class="footer-content">
+            <div class="footer-logo-social">
+                <a href="#" class="footer-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4bb.svg" alt="Logo">
+                    DevPortfolio
+                </a>
+                <div class="footer-social">
+                    <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+                    </a>
+                    <a href="mailto:michael@email.com" aria-label="Email">
+                        <img src="https://cdn.jsdelivr.net/gh/feathericons/feather@4.28.0/icons/mail.svg" alt="Email" style="filter: invert(1); width: 28px;">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2025 Michael | Designed with <span style="color:#c9ada7;">&#10084;</span> | Inspired by <a href="https://dribbble.com/shots/15115745" target="_blank">Dribbble</a> &amp; <a href="https://uiverse.io/" target="_blank">Uiverse</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Back to Top Button -->
+    <button type="submit" id="backToTop" title="Back to Top">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="12" fill="#22223b"/>
+            <path d="M12 16V8M12 8L8 12M12 8L16 12" stroke="#f2e9e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>
